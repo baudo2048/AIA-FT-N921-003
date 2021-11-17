@@ -6,7 +6,10 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return 'Hello Strat thinking!'
+    try:
+	    return render_template('index.html')
+	except Exception as e:
+		return str(e)
 
 @app.route('/events')
 def events():
