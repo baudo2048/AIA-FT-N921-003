@@ -1,4 +1,5 @@
 from flask import Flask
+from flask import render_template
 import json
 
 
@@ -6,10 +7,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    try:
-	    return render_template('index.html')
-	except Exception as e:
-		return str(e)
+	return render_template('index.html')
 
 @app.route('/events')
 def events():
