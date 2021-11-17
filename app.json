@@ -1,0 +1,7 @@
+{
+  "name": "AIA-FT-N921-003",
+  "description": "Project for Strat.",
+  "repository": "https://github.com/baudo2048/AIA-FT-N921-003",
+  "keywords": ["flask", "heroku"],
+  "authors": ["joe", "james"]
+}
