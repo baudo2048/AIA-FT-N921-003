@@ -3,4 +3,4 @@ This is the repository for the Strategic Thinking Project.
 
 
 # Demo
-(see demo)[https://trafficline.herokuapp.com/]
+[see demo](https://trafficline.herokuapp.com/)
